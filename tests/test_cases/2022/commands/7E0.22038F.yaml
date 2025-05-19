@@ -1,0 +1,31 @@
+command_id: 7E0.22038F
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E80562038F084E
+  expected_values:
+    FORD_ECT: 33.21875
+- response: 7E80562038F0A1D
+  expected_values:
+    FORD_ECT: 40.45312
+- response: 7E80562038F0B48
+  expected_values:
+    FORD_ECT: 45.125
+- response: 7E80562038F0BCF
+  expected_values:
+    FORD_ECT: 47.23438
+- response: 7E80562038F0C16
+  expected_values:
+    FORD_ECT: 48.34375
+- response: 7E80562038F0C4A
+  expected_values:
+    FORD_ECT: 49.15625
+- response: 7E80562038F0C84
+  expected_values:
+    FORD_ECT: 50.0625
+- response: 7E80562038F0C87
+  expected_values:
+    FORD_ECT: 50.10938
+- response: 7E80562038F0D02
+  expected_values:
+    FORD_ECT: 52.03125

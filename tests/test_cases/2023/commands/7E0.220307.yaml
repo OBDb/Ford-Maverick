@@ -1,0 +1,13 @@
+command_id: 7E0.220307
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E8056203072D1A
+  expected_values:
+    FORD_LPFP_DUTY: 35.2356
+- response: 7E8056203072D2D
+  expected_values:
+    FORD_LPFP_DUTY: 35.29358
+- response: '7E8056203076000'
+  expected_values:
+    FORD_LPFP_DUTY: 75
