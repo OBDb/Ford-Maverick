@@ -1,0 +1,16 @@
+command_id: 7E0.220301
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: '7E8056203010938'
+  expected_values:
+    FORD_MAP_V: 2.30469
+- response: 7E8056203010E65
+  expected_values:
+    FORD_MAP_V: 3.59863
+- response: 7E8056203010FD2
+  expected_values:
+    FORD_MAP_V: 3.95508
+- response: 7E8056203010FD5
+  expected_values:
+    FORD_MAP_V: 3.95801

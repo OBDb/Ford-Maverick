@@ -76,3 +76,9 @@ supported_commands_by_ecu:
   - 0131:CLR_DIST
   - 0142:VPWR
   - 0149:APP_D
+unsupported_commands_by_ecu:
+  720:
+  - 720.728.226185
+  - 720.728.22DD01
+  7E0:
+  - 7E0.7E8.221E1C
