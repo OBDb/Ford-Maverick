@@ -1,0 +1,11 @@
+command_id: 7E0.220316
+test_cases:
+- response: '7E8056203160000'
+  expected_values:
+    FORD_VCT_INT_DUTY: 0
+- response: 7E8056203162EFE
+  expected_values:
+    FORD_VCT_INT_DUTY: 36.71265
+- response: 7E8056203163E03
+  expected_values:
+    FORD_VCT_INT_DUTY: 48.44666

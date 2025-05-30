@@ -1,0 +1,13 @@
+command_id: 7E0.22032B
+test_cases:
+- response: 7E80462032B09
+  expected_values:
+    FORD_ACC_POS: 4.5
+- response: 7E80462032B5E
+  expected_values:
+    FORD_ACC_POS: 47
+- response: |-
+    > 7E0.22032B
+    7E80462032B00
+  expected_values:
+    FORD_ACC_POS: 0

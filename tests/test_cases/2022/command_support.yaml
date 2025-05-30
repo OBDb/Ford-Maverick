@@ -76,5 +76,5 @@ supported_commands_by_ecu:
   - 0149:APP_D
 unsupported_commands_by_ecu:
   720:
-  - 720.728.226185
-  - 720.728.22DD01
+  - 720.728.226185:FORD_FLI_V2
+  - 720.728.22DD01:FORD_ODO_TRIP

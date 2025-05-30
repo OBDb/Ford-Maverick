@@ -1,0 +1,8 @@
+command_id: 7E0.22033C
+test_cases:
+- response: 7E80562033C011D
+  expected_values:
+    FORD_TIP_V: 1.3916
+- response: 7E80562033C01DC
+  expected_values:
+    FORD_TIP_V: 2.32422
