@@ -1,0 +1,29 @@
+command_id: 7E0.22038F
+test_cases:
+- response: 7E80562038F084E
+  expected_values:
+    FORD_ECT: 33.21875
+- response: 7E80562038F0D02
+  expected_values:
+    FORD_ECT: 52.03125
+- response: 7E80562038F0EFD
+  expected_values:
+    FORD_ECT: 59.95312
+- response: 7E80562038F151B
+  expected_values:
+    FORD_ECT: 84.42188
+- response: |-
+    > 7E0.22038F
+    7E80562038F055C
+  expected_values:
+    FORD_ECT: 21.4375
+- response: |-
+    > 7E0.22038F
+    7E80562038F0FAB
+  expected_values:
+    FORD_ECT: 62.67188
+- response: |-
+    > 7E0.22038F
+    7E80562038F1425
+  expected_values:
+    FORD_ECT: 80.57812
