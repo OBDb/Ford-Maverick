@@ -1,20 +1,14 @@
 command_id: 7E4.7EC.224801|fc=1
 test_cases:
-- response: 7EC056248016AAF
-  expected_values:
-    FORD_HVBAT_SOC: 54.622
-- response: 7EC0562480175B9
-  expected_values:
-    FORD_HVBAT_SOC: 60.274
-- response: 7EC05624801771E
-  expected_values:
-    FORD_HVBAT_SOC: 60.988
-- response: 7EC05624801794B
-  expected_values:
-    FORD_HVBAT_SOC: 62.102
-- response: 7EC05624801795D
-  expected_values:
-    FORD_HVBAT_SOC: 62.138
-- response: 7EC056248018182
-  expected_values:
-    FORD_HVBAT_SOC: 66.308
+- expected_values:
+    FORD_HVBAT_SOC: 29.924
+  response: 7EC056248013A72
+- expected_values:
+    FORD_HVBAT_SOC: 54.272
+  response: 7EC056248016A00
+- expected_values:
+    FORD_HVBAT_SOC: 56.318
+  response: 7EC056248016DFF
+- expected_values:
+    FORD_HVBAT_SOC: 70.75
+  response: 7EC056248018A2F

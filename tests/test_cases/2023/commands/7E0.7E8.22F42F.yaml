@@ -1,23 +1,11 @@
 command_id: 7E0.7E8.22F42F
 test_cases:
-- response: 7E80462F42FD0
-  expected_values:
-    FORD_FLI: 81.56863
-- response: 7E80462F42FD8
-  expected_values:
-    FORD_FLI: 84.70588
-- response: 7E80462F42FE4
-  expected_values:
-    FORD_FLI: 89.41176
-- response: 7E80462F42FEA
-  expected_values:
-    FORD_FLI: 91.76471
-- response: 7E80462F42FF0
-  expected_values:
-    FORD_FLI: 94.11765
-- response: 7E80462F42FF6
-  expected_values:
-    FORD_FLI: 96.47059
-- response: 7E80462F42FFF
-  expected_values:
+- expected_values:
+    FORD_FLI: 0
+  response: 7E80462F42F00
+- expected_values:
+    FORD_FLI: 18.03922
+  response: 7E80462F42F2E
+- expected_values:
     FORD_FLI: 100
+  response: 7E80462F42FFF
