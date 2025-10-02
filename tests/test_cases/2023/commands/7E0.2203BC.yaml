@@ -8,4 +8,4 @@ test_cases:
   response: 7E8056203BCFDFF
 - expected_values:
     FORD_VCT_INT_DES: 0
-  response: 7E8056203BCFF07
+  response: 7E8056203BCFF02
