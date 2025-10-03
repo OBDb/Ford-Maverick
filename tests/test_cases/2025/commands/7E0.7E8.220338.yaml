@@ -9,6 +9,6 @@ test_cases:
     FORD_[ECU] ETC learned trim: 90
   response: 7E805620338FF96
 - expected_values:
-    FORD_ETC_TRIM_LEARNED: -0.00781
+    FORD_ETC_TRIM_LEARNED: -0.00391
     FORD_[ECU] ETC learned trim: 90
-  response: 7E805620338FFFC
+  response: 7E805620338FFFE
