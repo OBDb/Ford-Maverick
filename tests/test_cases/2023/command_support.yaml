@@ -167,3 +167,5 @@ unsupported_commands_by_ecu:
   - 7E4.7EC.224848|fc=1:FORD_HVBAT_KWH
   - 7E4.7EC.22484F|fc=1:FORD_CHRG_STATE
   - 7E4.7EC.22490C|fc=1:FORD_HVBAT_SOH
+  "7E6":
+  - 7E6.7EE.010D
