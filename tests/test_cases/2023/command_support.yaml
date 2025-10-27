@@ -106,6 +106,7 @@ supported_commands_by_ecu:
   - 015B:BAT_SOC
   - 7E4.7EC.010D
   - 7E4.7EC.0131
+  - 7E4.7EC.0142
   - 7E4.7EC.015B
   - 7E4.7EC.224800|fc=1:FORD_HVBAT_T
   - 7E4.7EC.224801|fc=1:FORD_HVBAT_SOC
@@ -146,6 +147,7 @@ unsupported_commands_by_ecu:
   - 7DF.221310:FORD_EOT
   - 7DF.22F45C:FORD_EOP
   "7E0":
+  - 7E0.0142:VPWR
   - 7E0.22030F:FORD_CL
   - 7E0.220393:FORD_AC_P
   - 7E0.7E8.220317:FORD_VCT_EXH_DUTY
@@ -169,3 +171,5 @@ unsupported_commands_by_ecu:
   - 7E4.7EC.22490C|fc=1:FORD_HVBAT_SOH
   "7E6":
   - 7E6.7EE.010D
+  - 7E6.7EE.0131
+  - 7E6.7EE.0142
