@@ -88,4 +88,4 @@ unsupported_commands_by_ecu:
   "726":
   - 726.72E.22DD01:FORD_ODO_V2
   "7E0":
-  - 7E0.7E8.22033E:FORD_TIP_ABS,FORD_[ECU] TIP actual abs
+  - 7E0.7E8.22033E:FORD_TIP_ABS,FORD_[ECU] TIP ACTUAL ABS

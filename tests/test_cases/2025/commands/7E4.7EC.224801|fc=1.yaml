@@ -10,5 +10,5 @@ test_cases:
     FORD_HVBAT_SOC: 43.008
   response: 7EC056248015400
 - expected_values:
-    FORD_HVBAT_SOC: 70.92
-  response: 7EC056248018A84
+    FORD_HVBAT_SOC: 70.686
+  response: 7EC056248018A0F
