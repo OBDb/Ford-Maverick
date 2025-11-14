@@ -1,0 +1,11 @@
+command_id: 746.74E.22483D
+test_cases:
+- expected_values:
+    FORD_DCDC_ENABLE: ENABLED
+  response: 74E0562483D0192
+- expected_values:
+    FORD_DCDC_ENABLE: ENABLED
+  response: 74E0562483D0196
+- expected_values:
+    FORD_DCDC_ENABLE: ENABLED
+  response: 74E0562483D0197

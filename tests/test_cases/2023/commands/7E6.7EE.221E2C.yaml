@@ -1,0 +1,11 @@
+command_id: 7E6.7EE.221E2C
+test_cases:
+- expected_values:
+    FORD_PRI_MOTOR_RPM: 0
+  response: 7EE05621E2C0000
+- expected_values:
+    FORD_PRI_MOTOR_RPM: 4595
+  response: 7EE05621E2C11F3
+- expected_values:
+    FORD_PRI_MOTOR_RPM: -101
+  response: 7EE05621E2CFF9B
