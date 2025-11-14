@@ -1,0 +1,29 @@
+command_id: 7E4.7EC.224846
+test_cases:
+- expected_values:
+    FORD_HVBAT_COOLANT_INLET_T: 6
+  response: 7EC0462484638
+- expected_values:
+    FORD_HVBAT_COOLANT_INLET_T: 7
+  response: 7EC0462484639
+- expected_values:
+    FORD_HVBAT_COOLANT_INLET_T: 8
+  response: 7EC046248463A
+- expected_values:
+    FORD_HVBAT_COOLANT_INLET_T: 9
+  response: 7EC046248463B
+- expected_values:
+    FORD_HVBAT_COOLANT_INLET_T: 10
+  response: 7EC046248463C
+- expected_values:
+    FORD_HVBAT_COOLANT_INLET_T: 11
+  response: 7EC046248463D
+- expected_values:
+    FORD_HVBAT_COOLANT_INLET_T: 12
+  response: 7EC046248463E
+- expected_values:
+    FORD_HVBAT_COOLANT_INLET_T: 13
+  response: 7EC046248463F
+- expected_values:
+    FORD_HVBAT_COOLANT_INLET_T: 14
+  response: 7EC0462484640
