@@ -1,6 +1,9 @@
 command_id: 746.74E.22483D
 test_cases:
 - expected_values:
+    FORD_DCDC_ENABLED: 0
+  response: 74E0562483D0094
+- expected_values:
     FORD_DCDC_ENABLED: 1
   response: 74E0562483D0192
 - expected_values:
