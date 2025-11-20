@@ -1,11 +1,11 @@
 command_id: 7E4.7EC.224841
 test_cases:
 - expected_values:
-    FORD_HVBAT_AVG_MOD_V: 3.432
-  response: 7EC056248410D68
+    FORD_HVBAT_AVG_MOD_V: 3.41
+  response: 7EC056248410D52
 - expected_values:
-    FORD_HVBAT_AVG_MOD_V: 3.587
-  response: 7EC056248410E03
+    FORD_HVBAT_AVG_MOD_V: 3.585
+  response: 7EC056248410E01
 - expected_values:
     FORD_HVBAT_AVG_MOD_V: 3.839
   response: 7EC056248410EFF
