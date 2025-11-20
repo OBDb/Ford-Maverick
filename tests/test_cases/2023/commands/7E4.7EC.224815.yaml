@@ -1,8 +1,8 @@
 command_id: 7E4.7EC.224815
 test_cases:
 - expected_values:
-    FORD_MAX_DISCH_PWR_LIM: 6.75
-  response: 7EC046248151B
+    FORD_MAX_DISCH_PWR_LIM: 1.5
+  response: 7EC0462481506
 - expected_values:
     FORD_MAX_DISCH_PWR_LIM: 32
   response: 7EC0462481580
