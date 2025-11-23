@@ -10,5 +10,5 @@ test_cases:
     FORD_HVBAT_V: 235.52
   response: 7EC0562480D5C00
 - expected_values:
-    FORD_HVBAT_V: 243.34
-  response: 7EC0562480D5F0E
+    FORD_HVBAT_V: 243.22
+  response: 7EC0562480D5F02
