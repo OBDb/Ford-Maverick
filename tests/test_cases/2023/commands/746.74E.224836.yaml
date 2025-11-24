@@ -4,5 +4,5 @@ test_cases:
     FORD_DCDC_LV_A: 0
   response: '74E0462483600'
 - expected_values:
-    FORD_DCDC_LV_A: 75
-  response: 74E046248364B
+    FORD_DCDC_LV_A: 90
+  response: 74E046248365A
