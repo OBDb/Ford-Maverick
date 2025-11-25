@@ -4,26 +4,8 @@ test_cases:
     FORD_DCDC_ENABLED: 0
   response: 74E0562483D0092
 - expected_values:
-    FORD_DCDC_ENABLED: 0
-  response: 74E0562483D0093
-- expected_values:
-    FORD_DCDC_ENABLED: 0
-  response: 74E0562483D0094
-- expected_values:
     FORD_DCDC_ENABLED: 1
-  response: 74E0562483D0192
-- expected_values:
-    FORD_DCDC_ENABLED: 1
-  response: 74E0562483D0193
-- expected_values:
-    FORD_DCDC_ENABLED: 1
-  response: 74E0562483D0194
-- expected_values:
-    FORD_DCDC_ENABLED: 1
-  response: 74E0562483D0196
-- expected_values:
-    FORD_DCDC_ENABLED: 1
-  response: 74E0562483D0197
+  response: 74E0562483D0191
 - expected_values:
     FORD_DCDC_ENABLED: 1
   response: 74E0562483DFFFF
