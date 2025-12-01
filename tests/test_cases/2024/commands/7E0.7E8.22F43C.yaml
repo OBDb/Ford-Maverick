@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.22F43C
+test_cases:
+- expected_values:
+    FORD_CAT_TEMP: 539.5
+  response: 7E80562F43C16A3
+- expected_values:
+    FORD_CAT_TEMP: 587
+  response: 7E80562F43C187E
+- expected_values:
+    FORD_CAT_TEMP: 593.4
+  response: 7E80562F43C18BE
+- expected_values:
+    FORD_CAT_TEMP: 618.8
+  response: 7E80562F43C19BC
+- expected_values:
+    FORD_CAT_TEMP: 622.7
+  response: 7E80562F43C19E3
+- expected_values:
+    FORD_CAT_TEMP: 622.8
+  response: 7E80562F43C19E4
+- expected_values:
+    FORD_CAT_TEMP: 630.1
+  response: 7E80562F43C1A2D
+- expected_values:
+    FORD_CAT_TEMP: 633.5
+  response: 7E80562F43C1A4F
+- expected_values:
+    FORD_CAT_TEMP: 645
+  response: 7E80562F43C1AC2
+- expected_values:
+    FORD_CAT_TEMP: 646.7
+  response: 7E80562F43C1AD3

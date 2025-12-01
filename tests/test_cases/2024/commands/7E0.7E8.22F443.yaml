@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.22F443
+test_cases:
+- expected_values:
+    FORD_ENG_LOAD_ACT: 0
+  response: 7E80562F4430000
+- expected_values:
+    FORD_ENG_LOAD_ACT: 10.58824
+  response: 7E80562F443001B
+- expected_values:
+    FORD_ENG_LOAD_ACT: 44.70588
+  response: 7E80562F4430072
+- expected_values:
+    FORD_ENG_LOAD_ACT: 45.88235
+  response: 7E80562F4430075
+- expected_values:
+    FORD_ENG_LOAD_ACT: 47.05882
+  response: 7E80562F4430078
+- expected_values:
+    FORD_ENG_LOAD_ACT: 47.84314
+  response: 7E80562F443007A
+- expected_values:
+    FORD_ENG_LOAD_ACT: 63.52941
+  response: 7E80562F44300A2
