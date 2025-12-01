@@ -16,5 +16,17 @@ test_cases:
     FORD_ERT: 19
   response: '7E80462112613'
 - expected_values:
+    FORD_ERT: 21
+  response: '7E80462112615'
+- expected_values:
+    FORD_ERT: 26
+  response: 7E8046211261A
+- expected_values:
     FORD_ERT: 31
   response: 7E8046211261F
+- expected_values:
+    FORD_ERT: 56
+  response: '7E80462112638'
+- expected_values:
+    FORD_ERT: 60
+  response: 7E8046211263C
