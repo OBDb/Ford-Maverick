@@ -1,8 +1,8 @@
 command_id: 7E6.7EE.221E1C|fc=1
 test_cases:
 - expected_values:
-    FORD_TT: 3.1875
-  response: 7EE05621E1C0033
+    FORD_TT: 1
+  response: 7EE05621E1C0010
 - expected_values:
     FORD_TT: 15.9375
   response: 7EE05621E1C00FF
