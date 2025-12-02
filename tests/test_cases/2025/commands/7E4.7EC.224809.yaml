@@ -1,8 +1,8 @@
 command_id: 7E4.7EC.224809
 test_cases:
 - expected_values:
-    FORD_HVBAT_CHR_A: 1.31
-  response: 7EC056248090083
+    FORD_HVBAT_CHR_A: 0.39
+  response: 7EC056248090027
 - expected_values:
     FORD_HVBAT_CHR_A: 300
   response: 7EC05624809F700
