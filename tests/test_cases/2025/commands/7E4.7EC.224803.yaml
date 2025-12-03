@@ -7,8 +7,8 @@ test_cases:
     FORD_HV_POS_LEAK_V: 2.567
   response: 7EC056248030A07
 - expected_values:
-    FORD_HV_POS_LEAK_V: 2.852
-  response: 7EC056248030B24
-- expected_values:
     FORD_HV_POS_LEAK_V: 3.068
   response: 7EC056248030BFC
+- expected_values:
+    FORD_HV_POS_LEAK_V: 3.092
+  response: 7EC056248030C14
