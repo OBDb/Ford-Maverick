@@ -4,23 +4,8 @@ test_cases:
     FORD_IGN_CORR_CYL1: 0
   response: 7E8056203EC0000
 - expected_values:
-    FORD_IGN_CORR_CYL1: 0.42188
-  response: 7E8056203EC00D8
+    FORD_IGN_CORR_CYL1: -0.38672
+  response: 7E8056203ECFF3A
 - expected_values:
-    FORD_IGN_CORR_CYL1: -3.37305
-  response: 7E8056203ECF941
-- expected_values:
-    FORD_IGN_CORR_CYL1: -2.80664
-  response: 7E8056203ECFA63
-- expected_values:
-    FORD_IGN_CORR_CYL1: -0.83984
-  response: 7E8056203ECFE52
-- expected_values:
-    FORD_IGN_CORR_CYL1: -0.75586
-  response: 7E8056203ECFE7D
-- expected_values:
-    FORD_IGN_CORR_CYL1: -0.29688
-  response: 7E8056203ECFF68
-- expected_values:
-    FORD_IGN_CORR_CYL1: -0.04492
-  response: 7E8056203ECFFE9
+    FORD_IGN_CORR_CYL1: -0.00195
+  response: 7E8056203ECFFFF
