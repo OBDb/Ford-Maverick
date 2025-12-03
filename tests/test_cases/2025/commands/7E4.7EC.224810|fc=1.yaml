@@ -27,3 +27,6 @@ test_cases:
 - expected_values:
     FORD_HVBAT_AGE: 5936.4
   response: 7EC056248100671
+- expected_values:
+    FORD_HVBAT_AGE: 5958
+  response: 7EC056248100677
