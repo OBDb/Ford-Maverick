@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.220404
+test_cases:
+- expected_values:
+    FORD_KS2_RAW: 71
+  response: '7E8056204040047'
+- expected_values:
+    FORD_KS2_RAW: 128
+  response: '7E8056204040080'

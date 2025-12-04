@@ -4,5 +4,29 @@ test_cases:
     FORD_GRILL_SHUTTER_POSITION: 0
   response: '7E80462058000'
 - expected_values:
+    FORD_GRILL_SHUTTER_POSITION: 6.66667
+  response: '7E80462058011'
+- expected_values:
+    FORD_GRILL_SHUTTER_POSITION: 26.66667
+  response: '7E80462058044'
+- expected_values:
     FORD_GRILL_SHUTTER_POSITION: 46.66667
   response: '7E80462058077'
+- expected_values:
+    FORD_GRILL_SHUTTER_POSITION: 53.33333
+  response: '7E80462058088'
+- expected_values:
+    FORD_GRILL_SHUTTER_POSITION: 60
+  response: '7E80462058099'
+- expected_values:
+    FORD_GRILL_SHUTTER_POSITION: 66.66667
+  response: 7E804620580AA
+- expected_values:
+    FORD_GRILL_SHUTTER_POSITION: 80
+  response: 7E804620580CC
+- expected_values:
+    FORD_GRILL_SHUTTER_POSITION: 86.66667
+  response: 7E804620580DD
+- expected_values:
+    FORD_GRILL_SHUTTER_POSITION: 100
+  response: 7E804620580FF

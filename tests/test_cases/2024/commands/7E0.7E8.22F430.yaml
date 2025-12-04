@@ -1,5 +1,11 @@
 command_id: 7E0.7E8.22F430
 test_cases:
 - expected_values:
+    FORD_WARMUP_CLR: 78
+  response: 7E80462F4304E
+- expected_values:
+    FORD_WARMUP_CLR: 79
+  response: 7E80462F4304F
+- expected_values:
     FORD_WARMUP_CLR: 255
   response: 7E80462F430FF
