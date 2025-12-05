@@ -5,38 +5,6 @@ test_cases:
     FORD_BATT_SOC: 12.15686
   response: 72E046240281F
 - expected_values:
-    FORD_12V_SOC: 32
-    FORD_BATT_SOC: 12.54902
-  response: '72E0462402820'
-- expected_values:
-    FORD_12V_SOC: 33
-    FORD_BATT_SOC: 12.94118
-  response: '72E0462402821'
-- expected_values:
-    FORD_12V_SOC: 34
-    FORD_BATT_SOC: 13.33333
-  response: '72E0462402822'
-- expected_values:
-    FORD_12V_SOC: 35
-    FORD_BATT_SOC: 13.72549
-  response: '72E0462402823'
-- expected_values:
-    FORD_12V_SOC: 43
-    FORD_BATT_SOC: 16.86275
-  response: 72E046240282B
-- expected_values:
-    FORD_12V_SOC: 44
-    FORD_BATT_SOC: 17.2549
-  response: 72E046240282C
-- expected_values:
-    FORD_12V_SOC: 45
-    FORD_BATT_SOC: 17.64706
-  response: 72E046240282D
-- expected_values:
-    FORD_12V_SOC: 75
-    FORD_BATT_SOC: 29.41176
-  response: 72E046240284B
-- expected_values:
     FORD_12V_SOC: 76
     FORD_BATT_SOC: 29.80392
   response: 72E046240284C
