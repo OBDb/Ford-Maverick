@@ -13,6 +13,6 @@ test_cases:
     FORD_THROTTLE_POS_DES: 50
   response: 7E80562091A1000
 - expected_values:
-    FORD_ETC_ANG_DES: 34.63867
+    FORD_ETC_ANG_DES: 41.62695
     FORD_THROTTLE_POS_DES: 100
-  response: 7E80562091A4547
+  response: 7E80562091A5341
