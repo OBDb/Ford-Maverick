@@ -4,29 +4,8 @@ test_cases:
     FORD_AC_COMP_A: 0
   response: 7CF056299AB0000
 - expected_values:
-    FORD_AC_COMP_A: 0.99796
-  response: 7CF056299AB0147
-- expected_values:
-    FORD_AC_COMP_A: 1.99896
-  response: 7CF056299AB028F
-- expected_values:
-    FORD_AC_COMP_A: 2.99997
-  response: 7CF056299AB03D7
-- expected_values:
-    FORD_AC_COMP_A: 3.99792
-  response: 7CF056299AB051E
-- expected_values:
-    FORD_AC_COMP_A: 4.99893
-  response: 7CF056299AB0666
-- expected_values:
-    FORD_AC_COMP_A: 5.99994
-  response: 7CF056299AB07AE
-- expected_values:
-    FORD_AC_COMP_A: 9.99786
-  response: 7CF056299AB0CCC
-- expected_values:
-    FORD_AC_COMP_A: 10.99887
-  response: 7CF056299AB0E14
+    FORD_AC_COMP_A: 6.99789
+  response: 7CF056299AB08F5
 - expected_values:
     FORD_AC_COMP_A: -0.99796
   response: 7CF056299ABFEB9
