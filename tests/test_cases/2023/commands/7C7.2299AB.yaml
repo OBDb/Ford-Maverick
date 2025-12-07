@@ -22,5 +22,11 @@ test_cases:
     FORD_AC_COMP_A: 5.99994
   response: 7CF056299AB07AE
 - expected_values:
+    FORD_AC_COMP_A: 9.99786
+  response: 7CF056299AB0CCC
+- expected_values:
+    FORD_AC_COMP_A: 10.99887
+  response: 7CF056299AB0E14
+- expected_values:
     FORD_AC_COMP_A: -0.99796
   response: 7CF056299ABFEB9
