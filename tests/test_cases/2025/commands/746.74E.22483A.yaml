@@ -4,5 +4,5 @@ test_cases:
     FORD_DCDC_HV_A: 0.1
   response: 74E0462483A01
 - expected_values:
-    FORD_DCDC_HV_A: 7.3
-  response: 74E0462483A49
+    FORD_DCDC_HV_A: 7.6
+  response: 74E0462483A4C

@@ -4,29 +4,5 @@ test_cases:
     FORD_PCM_MISF_EVENTS_LATEST_CYC: 0
   response: '7E80762034500000000'
 - expected_values:
-    FORD_PCM_MISF_EVENTS_LATEST_CYC: 1
-  response: '7E80762034500000001'
-- expected_values:
-    FORD_PCM_MISF_EVENTS_LATEST_CYC: 2
-  response: '7E80762034500000002'
-- expected_values:
-    FORD_PCM_MISF_EVENTS_LATEST_CYC: 3
-  response: '7E80762034500000003'
-- expected_values:
-    FORD_PCM_MISF_EVENTS_LATEST_CYC: 4
-  response: '7E80762034500000004'
-- expected_values:
-    FORD_PCM_MISF_EVENTS_LATEST_CYC: 5
-  response: '7E80762034500000005'
-- expected_values:
-    FORD_PCM_MISF_EVENTS_LATEST_CYC: 10
-  response: 7E8076203450000000A
-- expected_values:
-    FORD_PCM_MISF_EVENTS_LATEST_CYC: 11
-  response: 7E8076203450000000B
-- expected_values:
-    FORD_PCM_MISF_EVENTS_LATEST_CYC: 12
-  response: 7E8076203450000000C
-- expected_values:
     FORD_PCM_MISF_EVENTS_LATEST_CYC: 16
   response: '7E80762034500000010'

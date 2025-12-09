@@ -1,14 +1,11 @@
 command_id: 7E0.7E8.221E1A
 test_cases:
 - expected_values:
-    FORD_PCM_CMD_TRANS_MAIN_LINE_P: 388
-  response: 7E805621E1A00C2
+    FORD_PCM_CMD_TRANS_MAIN_LINE_P: 0
+  response: 7E805621E1A0000
 - expected_values:
-    FORD_PCM_CMD_TRANS_MAIN_LINE_P: 504
-  response: 7E805621E1A00FC
-- expected_values:
-    FORD_PCM_CMD_TRANS_MAIN_LINE_P: 512
-  response: 7E805621E1A0100
+    FORD_PCM_CMD_TRANS_MAIN_LINE_P: 1018
+  response: 7E805621E1A01FD
 - expected_values:
     FORD_PCM_CMD_TRANS_MAIN_LINE_P: 2050
   response: 7E805621E1A0401
