@@ -4,8 +4,8 @@ test_cases:
     FORD_KS2_RAW: 52
   response: '7E8056204040034'
 - expected_values:
-    FORD_KS2_RAW: 244
-  response: 7E80562040400F4
+    FORD_KS2_RAW: 252
+  response: 7E80562040400FC
 - expected_values:
     FORD_KS2_RAW: 268
   response: 7E805620404010C
