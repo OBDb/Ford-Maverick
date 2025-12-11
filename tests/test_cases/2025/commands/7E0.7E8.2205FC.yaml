@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     FORD_PCM_CYL_HEAD_T_SENS_2_RAW: 15.54688
   response: 7E8056205FC03E3
+- expected_values:
+    FORD_PCM_CYL_HEAD_T_SENS_2_RAW: 40.70312
+  response: 7E8056205FC0A2D
