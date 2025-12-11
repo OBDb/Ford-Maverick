@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     FORD_PCM_ENG_REFERENCE_TRQ: 333
   response: 7E80562F463014D
+- expected_values:
+    FORD_PCM_ENG_REFERENCE_TRQ: 378
+  response: 7E80562F463017A
