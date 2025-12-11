@@ -10,5 +10,8 @@ test_cases:
     FORD_PCM_CMD_TRANS_GEAR_RATIO: 2.96001
   response: 7E805621E192F5C
 - expected_values:
+    FORD_PCM_CMD_TRANS_GEAR_RATIO: 3.01225
+  response: 7E805621E193032
+- expected_values:
     FORD_PCM_CMD_TRANS_GEAR_RATIO: 4.68904
   response: 7E805621E194B06
