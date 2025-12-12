@@ -7,6 +7,9 @@ test_cases:
     FORD_TRQ_CTRL_REQ: 12
   response: 7E8046203AF0C
 - expected_values:
+    FORD_TRQ_CTRL_REQ: 13
+  response: 7E8046203AF0D
+- expected_values:
     FORD_TRQ_CTRL_REQ: 16
   response: 7E8046203AF10
 - expected_values:
