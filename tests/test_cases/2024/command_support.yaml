@@ -18,6 +18,7 @@ supported_commands_by_ecu:
   "7C7":
   - 7C7.2299AB:FORD_AC_COMP_A
   "7DF":
+  - 7DF.0106
   - 7DF.010D
   - 7DF.221E12:FORD_GEAR_V2
   - 7DF.221E1C:FORD_TOT_V2

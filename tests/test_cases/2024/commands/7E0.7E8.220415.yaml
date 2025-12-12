@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.220415
 test_cases:
 - expected_values:
-    FORD_PCM_ENG_EOP_RAW: 99
-  response: '7E8056204150063'
+    FORD_PCM_ENG_EOP_RAW: 95
+  response: 7E805620415005F
 - expected_values:
-    FORD_PCM_ENG_EOP_RAW: 276
-  response: '7E8056204150114'
+    FORD_PCM_ENG_EOP_RAW: 269
+  response: 7E805620415010D
 - expected_values:
     FORD_PCM_ENG_EOP_RAW: 507
   response: 7E80562041501FB
