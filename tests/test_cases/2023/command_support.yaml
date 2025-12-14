@@ -179,6 +179,8 @@ supported_commands_by_ecu:
   - 0142:VPWR
   - 0149:APP_D
   - 015B:BAT_SOC
+  - 7E4.7EC.0104
+  - 7E4.7EC.0105
   - 7E4.7EC.010D
   - 7E4.7EC.0131
   - 7E4.7EC.0142
