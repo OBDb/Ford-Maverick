@@ -4,8 +4,8 @@ test_cases:
     FORD_FLI: 9.80392
   response: 7E80462F42F19
 - expected_values:
-    FORD_FLI: 29.80392
-  response: 7E80462F42F4C
+    FORD_FLI: 14.90196
+  response: 7E80462F42F26
 - expected_values:
     FORD_FLI: 100
   response: 7E80462F42FFF
