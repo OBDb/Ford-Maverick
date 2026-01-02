@@ -8,7 +8,7 @@ test_cases:
   response: 7EC0562480903FE
 - expected_values:
     FORD_HVBAT_CHR_A: 300
-  response: 7EC05624809FD02
+  response: 7EC05624809FA01
 - expected_values:
     FORD_HVBAT_CHR_A: 300
   response: 7EC05624809FF03
