@@ -10,5 +10,5 @@ test_cases:
     FORD_HVBAT_A_ALT: -56.32
   response: 7EC0562480BF500
 - expected_values:
-    FORD_HVBAT_A_ALT: -4.56
-  response: 7EC0562480BFF1C
+    FORD_HVBAT_A_ALT: -4.86
+  response: 7EC0562480BFF0D
