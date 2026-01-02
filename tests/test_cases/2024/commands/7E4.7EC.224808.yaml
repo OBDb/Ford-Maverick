@@ -4,8 +4,8 @@ test_cases:
     FORD_T_RANGE: 1
     FORD_T_RANGE_AVG: -2
     FORD_T_RANGE_MAX: -1
-    FORD_T_RANGE_MIN: -2
-  response: 7EC0762480831303330
+    FORD_T_RANGE_MIN: -3
+  response: 7EC07624808312F3330
 - expected_values:
     FORD_T_RANGE: 0
     FORD_T_RANGE_AVG: -1
