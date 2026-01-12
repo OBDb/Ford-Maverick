@@ -329,6 +329,8 @@ unsupported_commands_by_ecu:
   - 7E4.7EC.2248FB:FORD_HVBAT_CHG_PWR_LIM
   - 7E4.7EC.22490C|fc=1:FORD_HVBAT_SOH
   "7E6":
+  - 7E6.7EE.0104
+  - 7E6.7EE.0105
   - 7E6.7EE.010D
   - 7E6.7EE.0131
   - 7E6.7EE.0142
