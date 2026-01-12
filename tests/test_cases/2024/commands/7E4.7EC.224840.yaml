@@ -7,8 +7,8 @@ test_cases:
     FORD_HVBAT_MIN_MOD_V: 3.582
   response: 7EC056248400DFE
 - expected_values:
-    FORD_HVBAT_MIN_MOD_V: 3.841
-  response: 7EC056248400F01
+    FORD_HVBAT_MIN_MOD_V: 3.585
+  response: 7EC056248400E01
 - expected_values:
     FORD_HVBAT_MIN_MOD_V: 4.106
   response: 7EC05624840100A
