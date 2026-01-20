@@ -1,8 +1,8 @@
 command_id: 7DF.221E12
 test_cases:
 - expected_values:
-    FORD_GEAR_V2: 40
-  response: 7EC04621E1228
+    FORD_GEAR_V2: 20
+  response: 7EC04621E1214
 - expected_values:
     FORD_GEAR_V2: 40
   response: |-

@@ -21,8 +21,8 @@ test_cases:
     7EC04621E1246
     7EE04621E1246
 - expected_values:
-    FORD_GEAR_CMD: D
-  response: 7EE04621E1228
+    FORD_GEAR_CMD: L
+  response: 7EE04621E1214
 - expected_values:
     FORD_GEAR_CMD: D
   response: |-
