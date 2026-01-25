@@ -1,9 +1,9 @@
 command_id: 726.72E.224028
 test_cases:
 - expected_values:
-    FORD_12V_SOC: 18
-    FORD_BATT_SOC: 7.05882
-  response: '72E0462402812'
+    FORD_12V_SOC: 17
+    FORD_BATT_SOC: 6.66667
+  response: '72E0462402811'
 - expected_values:
     FORD_12V_SOC: 99
     FORD_BATT_SOC: 38.82353
