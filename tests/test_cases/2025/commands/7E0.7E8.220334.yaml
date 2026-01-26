@@ -10,5 +10,5 @@ test_cases:
     FORD_PCM_CYL_HEAD_T_CORR: 36
   response: '7E8056203340900'
 - expected_values:
-    FORD_PCM_CYL_HEAD_T_CORR: -10.46875
-  response: 7E805620334FD62
+    FORD_PCM_CYL_HEAD_T_CORR: -4.01562
+  response: 7E805620334FEFF
