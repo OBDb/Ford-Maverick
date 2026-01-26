@@ -14,4 +14,4 @@ test_cases:
   response: 7EC056248055500
 - expected_values:
     FORD_CONTACTOR_V_POS: 300
-  response: 7EC05624805611A
+  response: 7EC056248056113
