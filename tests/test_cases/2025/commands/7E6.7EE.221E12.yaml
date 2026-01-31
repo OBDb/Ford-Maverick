@@ -1,10 +1,10 @@
 command_id: 7E6.7EE.221E12
 test_cases:
 - expected_values:
-    FORD_GEAR_CMD: D
+    FORD_GEAR_CMD: L
   response: |-
-    7EC04621E1228
-    7EE04621E1228
+    7EC04621E1214
+    7EE04621E1214
 - expected_values:
     FORD_GEAR_CMD: N
   response: |-
@@ -24,10 +24,10 @@ test_cases:
     FORD_GEAR_CMD: L
   response: 7EE04621E1214
 - expected_values:
-    FORD_GEAR_CMD: D
+    FORD_GEAR_CMD: L
   response: |-
-    7EE04621E1228
-    7EC04621E1228
+    7EE04621E1214
+    7EC04621E1214
 - expected_values:
     FORD_GEAR_CMD: P
   response: 7EE04621E1246
