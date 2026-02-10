@@ -4,8 +4,8 @@ test_cases:
     FORD_KS1_RAW: 0
   response: '7E8056204030000'
 - expected_values:
-    FORD_KS1_RAW: 248
-  response: 7E80562040300F8
+    FORD_KS1_RAW: 252
+  response: 7E80562040300FC
 - expected_values:
     FORD_KS1_RAW: 1028
   response: '7E8056204030404'

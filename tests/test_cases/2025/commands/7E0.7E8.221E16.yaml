@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.221E16
 test_cases:
 - expected_values:
-    FORD_AXLE_GEAR_RATIO_MEAS: 0.74463
-  response: 7E805621E160BEA
+    FORD_AXLE_GEAR_RATIO_MEAS: 0.61646
+  response: 7E805621E1609DD
 - expected_values:
     FORD_AXLE_GEAR_RATIO_MEAS: 0.99976
   response: 7E805621E160FFF
