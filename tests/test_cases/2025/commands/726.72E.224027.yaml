@@ -5,9 +5,9 @@ test_cases:
     FORD_BATT_AGE: 59
   response: 72E05624027003B
 - expected_values:
-    FORD_12V_AGE: 5568
-    FORD_BATT_AGE: 232
-  response: 72E0562402700E8
+    FORD_12V_AGE: 5592
+    FORD_BATT_AGE: 233
+  response: 72E0562402700E9
 - expected_values:
     FORD_12V_AGE: 7032
     FORD_BATT_AGE: 293
