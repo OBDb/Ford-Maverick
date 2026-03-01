@@ -1,0 +1,11 @@
+command_id: 7E4.7EC.224804
+test_cases:
+- expected_values:
+    FORD_HV_NEG_LEAK_V: 2.159
+  response: 7EC05624804086F
+- expected_values:
+    FORD_HV_NEG_LEAK_V: 2.268
+  response: 7EC0562480408DC
+- expected_values:
+    FORD_HV_NEG_LEAK_V: 2.332
+  response: 7EC05624804091C
