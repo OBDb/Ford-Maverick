@@ -4,8 +4,8 @@ test_cases:
     FORD_HVBAT_CHG_PWR_LIM: 0.7
   response: 7EC056248FB0007
 - expected_values:
-    FORD_HVBAT_CHG_PWR_LIM: 25
-  response: 7EC056248FB00FA
+    FORD_HVBAT_CHG_PWR_LIM: 25.5
+  response: 7EC056248FB00FF
 - expected_values:
-    FORD_HVBAT_CHG_PWR_LIM: 25.9
-  response: 7EC056248FB0103
+    FORD_HVBAT_CHG_PWR_LIM: 25.6
+  response: 7EC056248FB0100
