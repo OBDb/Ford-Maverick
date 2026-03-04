@@ -4,3 +4,11 @@ test_cases:
     FORD_12V_AGE: 1104
     FORD_BATT_AGE: 46
   response: 72E05624027002E
+- expected_values:
+    FORD_12V_AGE: 1128
+    FORD_BATT_AGE: 47
+  response: 72E05624027002F
+- expected_values:
+    FORD_12V_AGE: 1152
+    FORD_BATT_AGE: 48
+  response: '72E056240270030'
