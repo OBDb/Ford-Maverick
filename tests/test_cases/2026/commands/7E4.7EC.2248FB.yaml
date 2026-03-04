@@ -1,11 +1,11 @@
 command_id: 7E4.7EC.2248FB
 test_cases:
 - expected_values:
-    FORD_HVBAT_CHG_PWR_LIM: 31.4
-  response: 7EC056248FB013A
+    FORD_HVBAT_CHG_PWR_LIM: 5.7
+  response: 7EC056248FB0039
 - expected_values:
-    FORD_HVBAT_CHG_PWR_LIM: 31.5
-  response: 7EC056248FB013B
+    FORD_HVBAT_CHG_PWR_LIM: 25
+  response: 7EC056248FB00FA
 - expected_values:
-    FORD_HVBAT_CHG_PWR_LIM: 31.6
-  response: 7EC056248FB013C
+    FORD_HVBAT_CHG_PWR_LIM: 25.9
+  response: 7EC056248FB0103
