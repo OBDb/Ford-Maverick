@@ -22,6 +22,11 @@ test_cases:
     FORD_GEAR_CMD: R
   response: 7EE04621E123C
 - expected_values:
+    FORD_GEAR_CMD: R
+  response: |-
+    7EE04621E123C
+    7EC04621E123C
+- expected_values:
     FORD_GEAR_CMD: P
   response: 7EE04621E1246
 - expected_values:
