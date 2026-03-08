@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     FORD_DIST_DTC_CLR: 768
   response: 7E80562F4310300
+- expected_values:
+    FORD_DIST_DTC_CLR: 2009
+  response: 7E80562F43107D9
