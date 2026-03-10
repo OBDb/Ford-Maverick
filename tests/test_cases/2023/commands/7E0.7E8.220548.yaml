@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.220548
+test_cases:
+- expected_values:
+    FORD_LPFP_ACT: 69.6197
+  response: 7E80562054803C0
+- expected_values:
+    FORD_LPFP_ACT: 70.12735
+  response: 7E80562054803C7
+- expected_values:
+    FORD_LPFP_ACT: 70.70751
+  response: 7E80562054803CF
+- expected_values:
+    FORD_LPFP_ACT: 72.01288
+  response: 7E80562054803E1
+- expected_values:
+    FORD_LPFP_ACT: 72.59304
+  response: 7E80562054803E9
+- expected_values:
+    FORD_LPFP_ACT: 72.66556
+  response: 7E80562054803EA
+- expected_values:
+    FORD_LPFP_ACT: 72.95565
+  response: 7E80562054803EE
+- expected_values:
+    FORD_LPFP_ACT: 73.02817
+  response: 7E80562054803EF
