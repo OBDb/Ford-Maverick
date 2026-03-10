@@ -3,3 +3,15 @@ test_cases:
 - expected_values:
     FORD_MCT: 0
   response: 7E8046203CA00
+- expected_values:
+    FORD_MCT: 67
+  response: 7E8046203CA43
+- expected_values:
+    FORD_MCT: 68
+  response: 7E8046203CA44
+- expected_values:
+    FORD_MCT: 69
+  response: 7E8046203CA45
+- expected_values:
+    FORD_MCT: 70
+  response: 7E8046203CA46
