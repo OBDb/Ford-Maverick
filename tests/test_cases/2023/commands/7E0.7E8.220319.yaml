@@ -4,8 +4,8 @@ test_cases:
     FORD_VCT_EXH_ACT: 0.0625
   response: '7E8056203190001'
 - expected_values:
-    FORD_VCT_EXH_ACT: 29.9375
-  response: 7E80562031901DF
+    FORD_VCT_EXH_ACT: 31.375
+  response: 7E80562031901F6
 - expected_values:
     FORD_VCT_EXH_ACT: 33.75
   response: 7E805620319021C
