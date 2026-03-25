@@ -4,5 +4,5 @@ test_cases:
     FORD_STFT: -15.625
   response: 7E80462F4066C
 - expected_values:
-    FORD_STFT: 6.25
-  response: 7E80462F40688
+    FORD_STFT: 13.28125
+  response: 7E80462F40691
