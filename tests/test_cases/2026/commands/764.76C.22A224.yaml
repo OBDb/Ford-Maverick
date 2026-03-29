@@ -7,8 +7,20 @@ test_cases:
     FORD_CC_TGT_VSS: -61.2
   response: 76C0562A224FF56
 - expected_values:
+    FORD_CC_TGT_VSS: -57.6
+  response: 76C0562A224FF60
+- expected_values:
     FORD_CC_TGT_VSS: -46.8
   response: 76C0562A224FF7E
+- expected_values:
+    FORD_CC_TGT_VSS: -43.2
+  response: 76C0562A224FF88
+- expected_values:
+    FORD_CC_TGT_VSS: -32.4
+  response: 76C0562A224FFA6
+- expected_values:
+    FORD_CC_TGT_VSS: -25.2
+  response: 76C0562A224FFBA
 - expected_values:
     FORD_CC_TGT_VSS: -3.6
   response: 76C0562A224FFF6
