@@ -32,6 +32,7 @@ supported_commands_by_ecu:
   "7DF":
   - 7DF.0111
   - 7DF.0131
+  - 7DF.0144
   - 7DF.221E12:FORD_GEAR_V2
   - 7DF.221E1C:FORD_TOT_V2
   - 7DF.221E23:FORD_GEAR_SHFT_V2
