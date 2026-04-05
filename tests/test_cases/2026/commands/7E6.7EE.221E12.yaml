@@ -8,7 +8,7 @@ test_cases:
 - expected_values:
     FORD_GEAR_CMD: N
   response: |-
-    7EC04621E123C
+    7EC04621E1232
     7EE04621E1232
 - expected_values:
     FORD_GEAR_CMD: R
