@@ -1,8 +1,0 @@
-command_id: 7E4.7EC.224846
-test_cases:
-- expected_values:
-    FORD_HVBAT_COOLANT_INLET_T: -17
-  response: 7EC0462484621
-- expected_values:
-    FORD_HVBAT_COOLANT_INLET_T: 36
-  response: 7EC0462484656
