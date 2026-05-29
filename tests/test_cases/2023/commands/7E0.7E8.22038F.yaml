@@ -9,9 +9,9 @@ test_cases:
     FORD_[ECU] ECT: 20
   response: 7E80562038F0500
 - expected_values:
-    FORD_ECT: 35.98438
-    FORD_[ECU] ECT: 35.98438
-  response: 7E80562038F08FF
+    FORD_ECT: 23.98438
+    FORD_[ECU] ECT: 23.98438
+  response: 7E80562038F05FF
 - expected_values:
     FORD_ECT: 96.03125
     FORD_[ECU] ECT: 96.03125
