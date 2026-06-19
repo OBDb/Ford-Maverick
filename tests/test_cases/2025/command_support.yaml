@@ -50,6 +50,7 @@ supported_commands_by_ecu:
   - 0105:ECT
   - 0106:SHRTFT1
   - 0107:LONGFT1
+  - 010A:FP
   - 010B:MAP
   - 010C:RPM
   - 010D:VSS
@@ -61,6 +62,7 @@ supported_commands_by_ecu:
   - 011C:OBDSUP
   - 011F:RUNTM
   - 0121:MIL_DIST
+  - 0123:FRP
   - 012E:EVAP_PCT
   - 012F:FLI
   - 0130:WARM_UPS
