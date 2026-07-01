@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     FORD_HVBAT_T: 30
   response: 7EC0462480050
+- expected_values:
+    FORD_HVBAT_T: 40
+  response: 7EC046248005A
