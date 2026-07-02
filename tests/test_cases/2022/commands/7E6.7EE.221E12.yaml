@@ -3,6 +3,12 @@ test_cases:
 - expected_values:
     FORD_GEAR_CMD: P
   response: |-
+    221E12
+    7EC04621E1246
+    7EE04621E1246
+- expected_values:
+    FORD_GEAR_CMD: P
+  response: |-
     7EC04621E1246
     7EE04621E1246
 - expected_values:
