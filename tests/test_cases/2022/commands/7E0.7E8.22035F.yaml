@@ -5,6 +5,12 @@ test_cases:
   response: 7E80562035F064A
 - expected_values:
     FORD_RO2_V: 1
+  response: 7E80562035F069E
+- expected_values:
+    FORD_RO2_V: 1
+  response: 7E80562035F06A0
+- expected_values:
+    FORD_RO2_V: 1
   response: 7E80562035F073D
 - expected_values:
     FORD_RO2_V: 1
