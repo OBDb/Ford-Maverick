@@ -4,5 +4,5 @@ test_cases:
     FORD_HVBAT_COOLANT_INLET_T: -4
   response: 7EC046248462E
 - expected_values:
-    FORD_HVBAT_COOLANT_INLET_T: 14
-  response: 7EC0462484640
+    FORD_HVBAT_COOLANT_INLET_T: 23
+  response: 7EC0462484649
