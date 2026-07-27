@@ -2,6 +2,12 @@ command_id: 764.76C.22A224
 test_cases:
 - expected_values:
     FORD_CC_TGT_VSS: 0
+  response: '76C 05 62 A2 24 00 00 '
+- expected_values:
+    FORD_CC_TGT_VSS: -10.8
+  response: '76C 05 62 A2 24 FF E2 '
+- expected_values:
+    FORD_CC_TGT_VSS: 0
   response: 76C0562A2240000
 - expected_values:
     FORD_CC_TGT_VSS: -82.8

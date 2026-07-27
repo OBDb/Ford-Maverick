@@ -1,6 +1,15 @@
 command_id: 7E4.7EC.22483F
 test_cases:
 - expected_values:
+    FORD_HVBAT_MOD_V: 0.006
+  response: '7EC 05 62 48 3F 00 06 '
+- expected_values:
+    FORD_HVBAT_MOD_V: 0.007
+  response: '7EC 05 62 48 3F 00 07 '
+- expected_values:
+    FORD_HVBAT_MOD_V: 0.02
+  response: '7EC 05 62 48 3F 00 14 '
+- expected_values:
     FORD_HVBAT_MOD_V: 0
   response: 7EC0562483F0000
 - expected_values:
