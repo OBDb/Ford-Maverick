@@ -1,6 +1,12 @@
 command_id: 7E4.7EC.2248FB
 test_cases:
 - expected_values:
+    FORD_HVBAT_CHG_PWR_LIM: 32
+  response: "2248FB\n7EC 05 62 48 FB 01 40 "
+- expected_values:
+    FORD_HVBAT_CHG_PWR_LIM: 32
+  response: '7EC 05 62 48 FB 01 40 '
+- expected_values:
     FORD_HVBAT_CHG_PWR_LIM: 0
   response: 7EC056248FB0000
 - expected_values:

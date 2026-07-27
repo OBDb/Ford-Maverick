@@ -1,6 +1,18 @@
 command_id: 7E0.7E8.220604
 test_cases:
 - expected_values:
+    FORD_PCM_A_C_REFRIG_P: 910
+  response: "220604\n7E8 05 62 06 04 03 8E "
+- expected_values:
+    FORD_PCM_A_C_REFRIG_P: 915
+  response: '7E8 05 62 06 04 03 93 '
+- expected_values:
+    FORD_PCM_A_C_REFRIG_P: 933
+  response: '7E8 05 62 06 04 03 A5 '
+- expected_values:
+    FORD_PCM_A_C_REFRIG_P: 1029
+  response: '7E8 05 62 06 04 04 05 '
+- expected_values:
     FORD_PCM_A_C_REFRIG_P: 176
   response: 7E80562060400B0
 - expected_values:

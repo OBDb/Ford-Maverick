@@ -2,4 +2,7 @@ command_id: 7E0.0111
 test_cases:
 - expected_values:
     TP: 0
+  response: '7E8 03 41 11 00 '
+- expected_values:
+    TP: 0
   response: '7E803411100'
