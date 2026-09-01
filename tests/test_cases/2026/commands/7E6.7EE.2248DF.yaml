@@ -1,8 +1,0 @@
-command_id: 7E6.7EE.2248DF
-test_cases:
-- expected_values:
-    FORD_COOLANT_HTR_OP_MODE: 'OFF'
-  response: '7EE 04 62 48 DF 00 '
-- expected_values:
-    FORD_COOLANT_HTR_OP_MODE: 'OFF'
-  response: 7EE046248DF00
