@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22F40F
+test_cases:
+- expected_values:
+    FORD_IAT_ALT2: 50
+  response: '7E8 04 62 F4 0F 5A '
+- expected_values:
+    FORD_IAT_ALT2: 53
+  response: '7E8 04 62 F4 0F 5D '
+- expected_values:
+    FORD_IAT_ALT2: -15
+  response: 7E80462F40F19
+- expected_values:
+    FORD_IAT_ALT2: 66
+  response: 7E80462F40F6A
