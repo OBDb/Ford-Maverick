@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.2205AD
+test_cases:
+- expected_values:
+    FORD_PCM_CYL_2_KNK_COMB_PERF_CNT: 1
+  response: 7E8046205AD01
+- expected_values:
+    FORD_PCM_CYL_2_KNK_COMB_PERF_CNT: 5
+  response: 7E8046205AD05
+- expected_values:
+    FORD_PCM_CYL_2_KNK_COMB_PERF_CNT: 6
+  response: 7E8046205AD06
+- expected_values:
+    FORD_PCM_CYL_2_KNK_COMB_PERF_CNT: 8
+  response: 7E8046205AD08
+- expected_values:
+    FORD_PCM_CYL_2_KNK_COMB_PERF_CNT: 9
+  response: 7E8046205AD09
