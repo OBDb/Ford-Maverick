@@ -1,0 +1,17 @@
+command_id: 760.768.222B07
+test_cases:
+- expected_values:
+    FORD_FL_VSS: 40
+  response: '768 04 62 2B 07 28 '
+- expected_values:
+    FORD_FL_VSS: 41
+  response: '768 04 62 2B 07 29 '
+- expected_values:
+    FORD_FL_VSS: 116
+  response: '768 04 62 2B 07 74 '
+- expected_values:
+    FORD_FL_VSS: 0
+  response: 76804622B0700
+- expected_values:
+    FORD_FL_VSS: 129
+  response: 76804622B0781

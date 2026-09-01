@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.220707
+test_cases:
+- expected_values:
+    FORD_GRILL_SHUT_DC: 21.17647
+  response: '7E8 04 62 07 07 36 '
+- expected_values:
+    FORD_GRILL_SHUT_DC: 25.88235
+  response: '7E8 04 62 07 07 42 '
+- expected_values:
+    FORD_GRILL_SHUT_DC: 36.47059
+  response: '7E8 04 62 07 07 5D '
+- expected_values:
+    FORD_GRILL_SHUT_DC: 40
+  response: '7E8 04 62 07 07 66 '
+- expected_values:
+    FORD_GRILL_SHUT_DC: 0
+  response: '7E80462070700'
+- expected_values:
+    FORD_GRILL_SHUT_DC: 100
+  response: 7E804620707FF

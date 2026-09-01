@@ -1,0 +1,24 @@
+command_id: 726.72E.222818
+test_cases:
+- expected_values:
+    FORD_TP_RLI: 150
+  response: |-
+    72E056228160313
+    72E056228180BB8
+- expected_values:
+    FORD_TP_RLI: 0
+  response: '72E056228180000'
+- expected_values:
+    FORD_TP_RLI: 150
+  response: 72E056228180BB8
+- expected_values:
+    FORD_TP_RLI: 150
+  response: |-
+    72E056228180BB8
+    72E0462402B7F
+    72E0562281502FA
+    72E056228170BB8
+    72E0562281402CD
+    72E05622813030E
+    72E0462402A86
+    72E0462402853

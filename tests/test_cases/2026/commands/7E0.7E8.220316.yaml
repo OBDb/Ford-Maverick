@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.220316
+test_cases:
+- expected_values:
+    FORD_VCT_INT_DUTY: 39.75525
+  response: '7E8 05 62 03 16 32 E3 '
+- expected_values:
+    FORD_VCT_INT_DUTY: 43.85681
+  response: '7E8 05 62 03 16 38 23 '
+- expected_values:
+    FORD_VCT_INT_DUTY: 45.8374
+  response: '7E8 05 62 03 16 3A AC '
+- expected_values:
+    FORD_VCT_INT_DUTY: 0
+  response: '7E8056203160000'
+- expected_values:
+    FORD_VCT_INT_DUTY: 33.5907
+  response: 7E8056203162AFF
+- expected_values:
+    FORD_VCT_INT_DUTY: 75.7904
+  response: '7E8056203166103'
