@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.220370
 test_cases:
 - expected_values:
-    FORD_MAP_HIRES: 31.25
-  response: 7E805620370007D
+    FORD_MAP_HIRES: 29.75
+  response: '7E8056203700077'
 - expected_values:
-    FORD_MAP_HIRES: 61.25
-  response: 7E80562037000F5
+    FORD_MAP_HIRES: 63.75
+  response: 7E80562037000FF
 - expected_values:
-    FORD_MAP_HIRES: 68.5
-  response: '7E8056203700112'
+    FORD_MAP_HIRES: 65.75
+  response: '7E8056203700107'

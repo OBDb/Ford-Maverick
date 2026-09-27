@@ -4,5 +4,5 @@ test_cases:
     FORD_CYL_HEAD_T: 9
   response: 7E80462051D31
 - expected_values:
-    FORD_CYL_HEAD_T: 51
-  response: 7E80462051D5B
+    FORD_CYL_HEAD_T: 59
+  response: 7E80462051D63
