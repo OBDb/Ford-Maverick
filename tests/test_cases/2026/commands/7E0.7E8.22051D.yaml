@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22051D
+test_cases:
+- expected_values:
+    FORD_CYL_HEAD_T: 9
+  response: 7E80462051D31
+- expected_values:
+    FORD_CYL_HEAD_T: 51
+  response: 7E80462051D5B
