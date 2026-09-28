@@ -4,5 +4,8 @@ test_cases:
     FORD_BAT_QUIESCENT: 10
   response: 72E0562402507E4
 - expected_values:
+    FORD_BAT_QUIESCENT: 12
+  response: 72E0562402507E8
+- expected_values:
     FORD_BAT_QUIESCENT: 22
   response: 72E0562402507FC
