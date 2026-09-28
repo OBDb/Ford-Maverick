@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.22F434
 test_cases:
 - expected_values:
+    FORD_AIR_FUEL_RAT: 0
+  response: 7E80762F43400008002
+- expected_values:
     FORD_AIR_FUEL_RAT: 14.37135
   response: 7E80762F4347DA67FF9
 - expected_values:
