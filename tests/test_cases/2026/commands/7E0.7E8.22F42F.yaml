@@ -1,17 +1,17 @@
 command_id: 7E0.7E8.22F42F
 test_cases:
 - expected_values:
-    FORD_FLI: 86.66667
+    MAVERICK_FLI_7E0_7E0: 86.66667
   response: '7E8 04 62 F4 2F DD '
 - expected_values:
-    FORD_FLI: 89.01961
+    MAVERICK_FLI_7E0_7E0: 89.01961
   response: '7E8 04 62 F4 2F E3 '
 - expected_values:
-    FORD_FLI: 95.29412
+    MAVERICK_FLI_7E0_7E0: 95.29412
   response: '7E8 04 62 F4 2F F3 '
 - expected_values:
-    FORD_FLI: 0
+    MAVERICK_FLI_7E0_7E0: 0
   response: 7E80462F42F00
 - expected_values:
-    FORD_FLI: 100
+    MAVERICK_FLI_7E0_7E0: 100
   response: 7E80462F42FFF

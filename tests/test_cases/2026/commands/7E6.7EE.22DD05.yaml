@@ -1,0 +1,5 @@
+command_id: 7E6.7EE.22DD05
+test_cases:
+- expected_values:
+    MAVERICK_OUTSIDE_T: 80.6
+  response: 7EE0462DD0543

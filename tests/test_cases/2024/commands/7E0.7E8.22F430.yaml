@@ -1,13 +1,13 @@
 command_id: 7E0.7E8.22F430
 test_cases:
 - expected_values:
-    FORD_WARMUP_CLR: 49
+    MAVERICK_WARMUP_CLR: 49
   response: 7E80462F43031
 - expected_values:
-    FORD_WARMUP_CLR: 255
+    MAVERICK_WARMUP_CLR: 255
   response: 7E80462F430FF
 - expected_values:
-    FORD_WARMUP_CLR: 208
+    MAVERICK_WARMUP_CLR: 208
   response: |-
     7E8056203EC0000
     7E804413126A3

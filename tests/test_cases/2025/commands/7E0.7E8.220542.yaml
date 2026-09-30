@@ -1,17 +1,20 @@
 command_id: 7E0.7E8.220542
 test_cases:
 - expected_values:
-    FORD_DIST_SINCE_OIL: 1301
+    MAVERICK_DIST_SINCE_OIL: 1301
   response: '7E8056205420515'
 - expected_values:
-    FORD_DIST_SINCE_OIL: 1531
+    MAVERICK_DIST_SINCE_OIL: 1531
   response: 7E80562054205FB
 - expected_values:
-    FORD_DIST_SINCE_OIL: 1537
+    MAVERICK_DIST_SINCE_OIL: 1537
   response: '7E8056205420601'
 - expected_values:
-    FORD_DIST_SINCE_OIL: 1538
+    MAVERICK_DIST_SINCE_OIL: 1538
   response: '7E8056205420602'
 - expected_values:
-    FORD_DIST_SINCE_OIL: 1560
+    MAVERICK_DIST_SINCE_OIL: 1560
   response: '7E8056205420618'
+- expected_values:
+    MAVERICK_DIST_SINCE_OIL: 1570
+  response: '7E8056205420622'

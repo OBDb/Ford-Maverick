@@ -1,8 +1,8 @@
 command_id: 726.72E.224026
 test_cases:
 - expected_values:
-    FORD_NORM_CUM_DCHG_BAT_OFF: 0
+    MAVERICK_NORM_CUM_DCHG_BAT_OFF: 13.4
   response: '72E056240260086'
 - expected_values:
-    FORD_NORM_CUM_DCHG_BAT_OFF: 0
+    MAVERICK_NORM_CUM_DCHG_BAT_OFF: 13.7
   response: '72E056240260089'

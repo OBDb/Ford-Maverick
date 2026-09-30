@@ -1,12 +1,10 @@
 command_id: 726.72E.224028
 test_cases:
 - expected_values:
-    FORD_12V_SOC: 25
-    FORD_BATT_SOC: 9.80392
+    MAVERICK_12V_SOC: 25
   response: '72E0462402819'
 - expected_values:
-    FORD_12V_SOC: 89
-    FORD_BATT_SOC: 34.90196
+    MAVERICK_12V_SOC: 89
   response: |-
     72E0462402859
     72E056228170BB8
@@ -18,8 +16,7 @@ test_cases:
     72E0562281402C3
     72E056228180BB8
 - expected_values:
-    FORD_12V_SOC: 89
-    FORD_BATT_SOC: 34.90196
+    MAVERICK_12V_SOC: 89
   response: |-
     72E0462402859
     72E056228170BB8
@@ -31,12 +28,10 @@ test_cases:
     72E0562281402C8
     72E056228180BB8
 - expected_values:
-    FORD_12V_SOC: 90
-    FORD_BATT_SOC: 35.29412
+    MAVERICK_12V_SOC: 90
   response: 72E046240285A
 - expected_values:
-    FORD_12V_SOC: 80
-    FORD_BATT_SOC: 31.37255
+    MAVERICK_12V_SOC: 80
   response: |-
     72E0562281502CD
     72E0462402B80

@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.220370
 test_cases:
 - expected_values:
-    FORD_MAP_HIRES: 20
+    MAVERICK_MAP_HIRES: 20
   response: '7E8056203700050'
 - expected_values:
-    FORD_MAP_HIRES: 63
+    MAVERICK_MAP_HIRES: 63
   response: 7E80562037000FC
 - expected_values:
-    FORD_MAP_HIRES: 64
+    MAVERICK_MAP_HIRES: 64
   response: '7E8056203700100'

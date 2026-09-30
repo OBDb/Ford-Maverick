@@ -1,10 +1,10 @@
 command_id: 7E0.7E8.220404
 test_cases:
 - expected_values:
-    FORD_KS2_RAW: 52
+    MAVERICK_KS2_RAW: 52
   response: '7E8056204040034'
 - expected_values:
-    FORD_KS2_RAW: 89
+    MAVERICK_KS2_RAW: 89
   response: |-
     7E8056204040059
     7E80562F4430078
@@ -37,16 +37,16 @@ test_cases:
     7E80562033801C0
     7E80562F4312930
 - expected_values:
-    FORD_KS2_RAW: 255
+    MAVERICK_KS2_RAW: 255
   response: 7E80562040400FF
 - expected_values:
-    FORD_KS2_RAW: 258
+    MAVERICK_KS2_RAW: 258
   response: '7E8056204040102'
 - expected_values:
-    FORD_KS2_RAW: 357
+    MAVERICK_KS2_RAW: 357
   response: |-
     7E8056204040165
     7E80562F44300DA
 - expected_values:
-    FORD_KS2_RAW: 821
+    MAVERICK_KS2_RAW: 821
   response: '7E8056204040335'

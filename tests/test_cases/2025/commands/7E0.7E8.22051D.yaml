@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22051D
 test_cases:
 - expected_values:
-    FORD_CYL_HEAD_T: -24
+    MAVERICK_CYL_HEAD_T: -24
   response: 7E80462051D10
 - expected_values:
-    FORD_CYL_HEAD_T: 18
+    MAVERICK_CYL_HEAD_T: 18
   response: 7E80462051D3A

@@ -1,20 +1,20 @@
 command_id: 726.72E.224025
 test_cases:
 - expected_values:
-    FORD_BAT_QUIESCENT: 12
+    MAVERICK_BAT_QUIESCENT: 12
   response: 72E0562402507E8
 - expected_values:
-    FORD_BAT_QUIESCENT: 21
+    MAVERICK_BAT_QUIESCENT: 21
   response: 72E0562402507FA
 - expected_values:
-    FORD_BAT_QUIESCENT: 25
+    MAVERICK_BAT_QUIESCENT: 25
   response: '72E056240250802'
 - expected_values:
-    FORD_BAT_QUIESCENT: 117
+    MAVERICK_BAT_QUIESCENT: 117
   response: 72E0562402508BA
 - expected_values:
-    FORD_BAT_QUIESCENT: 120
+    MAVERICK_BAT_QUIESCENT: 120
   response: 72E0562402508C0
 - expected_values:
-    FORD_BAT_QUIESCENT: 121
+    MAVERICK_BAT_QUIESCENT: 121
   response: 72E0562402508C2
