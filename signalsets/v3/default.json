@@ -88,7 +88,7 @@
   "signals": [
     {"id": "MAVERICK_BAT_CURRENT_726", "path": "Engine", "fmt": { "len": 16, "max": 3584.2375, "min": -511.7, "div": 16, "add": -511.7, "unit": "amps" }, "name": "Battery current"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "40D1"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "40D1"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2027 },
   "signals": [
     {"id": "MAVERICK_AUX_12V_BAT_CTRL", "path": "Battery", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Aux 12V battery control mode"}
   ]},
@@ -375,7 +375,7 @@
   "signals": [
     {"id": "MAVERICK_HPFP_DES", "path": "Engine", "fmt": { "len": 16, "max": 655350, "mul": 10, "unit": "kilopascal" }, "name": "Fuel rail pressure, desired"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03E3"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03E3"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2027 },
   "signals": [
     {"id": "MAVERICK_PF_DIFF_P_FEEDBACK_V", "path": "Battery", "fmt": { "len": 16, "max": 32.01, "min": -32.01, "mul": 977, "div": 1000000, "sign": true, "unit": "volts" }, "name": "PF differential pressure feedback EGR sensor voltage"}
   ]},
@@ -862,11 +862,11 @@
   "signals": [
     {"id": "MAVERICK_AAT", "path": "Climate", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Exterior temperature"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "0117"}, "freq": 0.25, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "0117"}, "freq": 0.25, "dbgfilter": { "to": 2024, "from": 2027 },
   "signals": [
     {"id": "MAVERICK_CLT_PMP_B_CTRL_SPD_CMD", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "volts" }, "name": "Coolant pump b control speed, commanded"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "011A"}, "freq": 0.25, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "011A"}, "freq": 0.25, "dbgfilter": { "to": 2024, "from": 2027 },
   "signals": [
     {"id": "MAVERICK_CLT_PMP_CTRL_SPD_CMD", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "volts" }, "name": "Coolant pump a control speed, commanded"}
   ]},
@@ -917,15 +917,15 @@
   "signals": [
     {"id": "MAVERICK_HVBAT_AGE", "path": "Battery", "fmt": { "len": 16, "max": 235926, "mul": 720, "div": 200, "unit": "hours" }, "name": "HV battery age"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4811"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4811"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2027 },
   "signals": [
     {"id": "MAVERICK_HIGH_V_LEAKAGE_RES_BUS", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "kiloohms" }, "name": "High voltage leakage resistance bus positive"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4812"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4812"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2027 },
   "signals": [
     {"id": "MAVERICK_HIGH_V_LEAKAGE_RES", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "kiloohms" }, "name": "High voltage leakage resistance bus negative"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4813"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4813"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2027 },
   "signals": [
     {"id": "MAVERICK_LEAKAGE_RES_BUS", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "kiloohms" }, "name": "Leakage resistance bus overall"}
   ]},
@@ -933,7 +933,7 @@
   "signals": [
     {"id": "MAVERICK_CHG_POWER_LIM", "path": "Battery", "fmt": { "len": 8, "max": 63.75, "mul": 25, "div": 100, "unit": "kilowatts" }, "name": "Maximum discharge power limit"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "483E"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "483E"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2027 },
   "signals": [
     {"id": "MAVERICK_SOC_VARIATION_BAT", "path": "Battery", "fmt": { "len": 16, "max": 65.53, "div": 1000, "unit": "percent" }, "name": "SOC variation battery modules"}
   ]},
@@ -976,11 +976,11 @@
         }}
     }
   ]},
-{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4852"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4852"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2027 },
   "signals": [
     {"id": "MAVERICK_BAT_DCHG_POWER_LIM", "path": "Battery", "fmt": { "len": 8, "max": 255, "unit": "kilowatts" }, "name": "Battery discharge power limit"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "485D"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "485D"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2027 },
   "signals": [
     {"id": "MAVERICK_BAT_PACK_LIFETIME", "path": "Battery", "fmt": { "len": 16, "max": 655350, "mul": 10, "unit": "ampereHours" }, "name": "Battery pack lifetime charge out, throughput"}
   ]},
@@ -992,7 +992,7 @@
   "signals": [
     {"id": "MAVERICK_HVBAT_SOH", "path": "Battery", "fmt": { "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "HV battery state of health", "suggestedMetric": "stateOfHealth"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "F45B"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "F45B"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2027 },
   "signals": [
     {"id": "MAVERICK_HYBRID_BAT_PACK", "path": "Battery", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Hybrid battery pack remaining charge"}
   ]},
