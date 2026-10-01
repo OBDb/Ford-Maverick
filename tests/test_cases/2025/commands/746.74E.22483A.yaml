@@ -1,8 +1,8 @@
 command_id: 746.74E.22483A
 test_cases:
 - expected_values:
-    FORD_DCDC_HV_A: 0
+    MAVERICK_LVB_DCDC_HV_CURRENT: 0
   response: 74E0462483A00
 - expected_values:
-    FORD_DCDC_HV_A: 13.5
+    MAVERICK_LVB_DCDC_HV_CURRENT: 13.5
   response: 74E0462483A87

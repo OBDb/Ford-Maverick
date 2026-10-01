@@ -1,5 +1,5 @@
 command_id: 7E6.7EE.2248DE
 test_cases:
 - expected_values:
-    FORD_COOLANT_HTR_PWR: 0
+    MAVERICK_CLT_HEATER_POWER: 0
   response: 7EE056248DE0000
