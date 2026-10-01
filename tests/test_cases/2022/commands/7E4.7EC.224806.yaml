@@ -14,3 +14,6 @@ test_cases:
 - expected_values:
     MAVERICK_CONTACTOR_V_NEGATIVE: 1.79
   response: 7EC0562480600B3
+- expected_values:
+    MAVERICK_CONTACTOR_V_NEGATIVE: null
+  response: 7EC05624806FFFF
