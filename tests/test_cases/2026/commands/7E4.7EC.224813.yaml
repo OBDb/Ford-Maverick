@@ -7,8 +7,17 @@ test_cases:
     MAVERICK_LEAKAGE_RES_BUS: 61209
   response: 7EC05624813EF19
 - expected_values:
+    MAVERICK_LEAKAGE_RES_BUS: 61273
+  response: 7EC05624813EF59
+- expected_values:
+    MAVERICK_LEAKAGE_RES_BUS: 62263
+  response: 7EC05624813F337
+- expected_values:
     MAVERICK_LEAKAGE_RES_BUS: 64475
   response: 7EC05624813FBDB
+- expected_values:
+    MAVERICK_LEAKAGE_RES_BUS: 64581
+  response: 7EC05624813FC45
 - expected_values:
     MAVERICK_LEAKAGE_RES_BUS: 65535
   response: 7EC05624813FFFF
