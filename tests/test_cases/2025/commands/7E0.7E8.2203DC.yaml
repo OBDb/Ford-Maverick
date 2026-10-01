@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.2203DC
 test_cases:
 - expected_values:
-    FORD_HPFP_DES: 39.16019
+    MAVERICK_HPFP_DES: 270
   response: 7E8056203DC001B
 - expected_values:
-    FORD_HPFP_DES: 1837.62816
+    MAVERICK_HPFP_DES: 12670
   response: 7E8056203DC04F3
 - expected_values:
-    FORD_HPFP_DES: 2974.72404
+    MAVERICK_HPFP_DES: 20510
   response: 7E8056203DC0803
 - expected_values:
-    FORD_HPFP_DES: 3500
+    MAVERICK_HPFP_DES: 34470
   response: 7E8056203DC0D77

@@ -1,29 +1,29 @@
 command_id: 726.72E.22401E
 test_cases:
 - expected_values:
-    FORD_NORM_CUM_CHG_IGN_ON: 0
+    MAVERICK_NORM_CUM_CHG_IGN_ON: 15.9
   response: 72E0562401E009F
 - expected_values:
-    FORD_NORM_CUM_CHG_IGN_ON: 0
+    MAVERICK_NORM_CUM_CHG_IGN_ON: 16
   response: 72E0562401E00A0
 - expected_values:
-    FORD_NORM_CUM_CHG_IGN_ON: 0.1
+    MAVERICK_NORM_CUM_CHG_IGN_ON: 26.5
   response: 72E0562401E0109
 - expected_values:
-    FORD_NORM_CUM_CHG_IGN_ON: 0.1
+    MAVERICK_NORM_CUM_CHG_IGN_ON: 26.6
   response: 72E0562401E010A
 - expected_values:
-    FORD_NORM_CUM_CHG_IGN_ON: 0.1
+    MAVERICK_NORM_CUM_CHG_IGN_ON: 26.7
   response: 72E0562401E010B
 - expected_values:
-    FORD_NORM_CUM_CHG_IGN_ON: 0.1
+    MAVERICK_NORM_CUM_CHG_IGN_ON: 26.8
   response: 72E0562401E010C
 - expected_values:
-    FORD_NORM_CUM_CHG_IGN_ON: 0.1
+    MAVERICK_NORM_CUM_CHG_IGN_ON: 26.9
   response: 72E0562401E010D
 - expected_values:
-    FORD_NORM_CUM_CHG_IGN_ON: 0.1
+    MAVERICK_NORM_CUM_CHG_IGN_ON: 27
   response: 72E0562401E010E
 - expected_values:
-    FORD_NORM_CUM_CHG_IGN_ON: 0.1
+    MAVERICK_NORM_CUM_CHG_IGN_ON: 27.1
   response: 72E0562401E010F

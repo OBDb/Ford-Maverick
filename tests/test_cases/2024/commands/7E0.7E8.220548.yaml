@@ -1,7 +1,7 @@
 command_id: 7E0.7E8.220548
 test_cases:
 - expected_values:
-    FORD_LPFP_ACT: 75.49386
+    MAVERICK_LPFP_ACT: 75.49386
   response: |-
     7E8056203072658
     7E80562031628B5
@@ -19,11 +19,11 @@ test_cases:
     7E805620317311E
     7E80662DD0100F26F
 - expected_values:
-    FORD_LPFP_ACT: 58.81414
+    MAVERICK_LPFP_ACT: 58.81414
   response: 7E805620548032B
 - expected_values:
-    FORD_LPFP_ACT: 74.1885
+    MAVERICK_LPFP_ACT: 74.1885
   response: 7E80562054803FF
 - expected_values:
-    FORD_LPFP_ACT: 74.33354
+    MAVERICK_LPFP_ACT: 74.33354
   response: '7E8056205480401'

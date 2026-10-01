@@ -1,14 +1,14 @@
 command_id: 7E4.7EC.22480B
 test_cases:
 - expected_values:
-    FORD_HVBAT_A: 0.04
+    MAVERICK_HVBAT_CURRENT: 0.04
   response: 7EC0562480B0002
 - expected_values:
-    FORD_HVBAT_A: 10.22
+    MAVERICK_HVBAT_CURRENT: 10.22
   response: 7EC0562480B01FF
 - expected_values:
-    FORD_HVBAT_A: 66.56
+    MAVERICK_HVBAT_CURRENT: 66.56
   response: 7EC0562480B0D00
 - expected_values:
-    FORD_HVBAT_A: -4.86
+    MAVERICK_HVBAT_CURRENT: -4.86
   response: 7EC0562480BFF0D

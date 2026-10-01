@@ -1,24 +1,19 @@
 command_id: 7E0.7E8.22DD01|fc=1
 test_cases:
 - expected_values:
-    FORD_ODO: 7764
-    FORD_ODO_7E0: 7764
+    MAVERICK_ODO_7E0: 7764
   response: 7E80662DD01001E54
 - expected_values:
-    FORD_ODO: 7935
-    FORD_ODO_7E0: 7935
+    MAVERICK_ODO_7E0: 7935
   response: 7E80662DD01001EFF
 - expected_values:
-    FORD_ODO: 7936
-    FORD_ODO_7E0: 7936
+    MAVERICK_ODO_7E0: 7936
   response: 7E80662DD01001F00
 - expected_values:
-    FORD_ODO: 65346
-    FORD_ODO_7E0: 65346
+    MAVERICK_ODO_7E0: 65346
   response: 7E80662DD0100FF42
 - expected_values:
-    FORD_ODO: 31348
-    FORD_ODO_7E0: 31348
+    MAVERICK_ODO_7E0: 31348
   response: |-
     7EC0662DD01007A74
     7EE0662DD01007A74
