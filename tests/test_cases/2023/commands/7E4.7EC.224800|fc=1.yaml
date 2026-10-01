@@ -4,5 +4,5 @@ test_cases:
     MAVERICK_HVBAT_T: -6
   response: 7EC046248002C
 - expected_values:
-    MAVERICK_HVBAT_T: 49
-  response: 7EC0462480063
+    MAVERICK_HVBAT_T: null
+  response: 7EC04624800FF
