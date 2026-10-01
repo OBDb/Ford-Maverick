@@ -1,0 +1,5 @@
+command_id: 7E4.7EC.224852
+test_cases:
+- expected_values:
+    MAVERICK_BAT_DCHG_POWER_LIM: 27
+  response: 7EC046248521B
