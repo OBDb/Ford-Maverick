@@ -13,5 +13,5 @@ test_cases:
     MAVERICK_ODO_BCM: 768
   response: 7680662DD01000300
 - expected_values:
-    MAVERICK_ODO_BCM: 12800
-  response: 7680662DD01003200
+    MAVERICK_ODO_BCM: null
+  response: 7680662DD01FFFFFE
