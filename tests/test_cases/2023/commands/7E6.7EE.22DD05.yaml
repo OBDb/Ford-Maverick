@@ -18,3 +18,6 @@ test_cases:
 - expected_values:
     MAVERICK_OUTSIDE_T: 68
   response: 7EE0462DD053C
+- expected_values:
+    MAVERICK_OUTSIDE_T: 69.8
+  response: 7EE0462DD053D
