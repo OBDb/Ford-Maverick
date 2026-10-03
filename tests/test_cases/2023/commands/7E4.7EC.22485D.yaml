@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     MAVERICK_BAT_PACK_LIFETIME: 13770
   response: 7EC0562485D0561
+- expected_values:
+    MAVERICK_BAT_PACK_LIFETIME: 13790
+  response: 7EC0562485D0563
+- expected_values:
+    MAVERICK_BAT_PACK_LIFETIME: 13800
+  response: 7EC0562485D0564
