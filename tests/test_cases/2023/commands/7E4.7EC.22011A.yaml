@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MAVERICK_CLT_PMP_CTRL_SPD_CMD: 0
   response: 7EC0462011A00
+- expected_values:
+    MAVERICK_CLT_PMP_CTRL_SPD_CMD: 100
+  response: 7EC0462011A64

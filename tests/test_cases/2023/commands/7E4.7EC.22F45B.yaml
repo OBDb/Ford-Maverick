@@ -1,8 +1,8 @@
 command_id: 7E4.7EC.22F45B
 test_cases:
 - expected_values:
-    MAVERICK_HYBRID_BAT_PACK: 47.45098
-  response: 7EC0462F45B79
+    MAVERICK_HYBRID_BAT_PACK: 45.09804
+  response: 7EC0462F45B73
 - expected_values:
     MAVERICK_HYBRID_BAT_PACK: 68.62745
   response: 7EC0462F45BAF
