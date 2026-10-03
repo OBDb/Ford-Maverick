@@ -1,0 +1,5 @@
+command_id: 7E4.7EC.22483E
+test_cases:
+- expected_values:
+    MAVERICK_SOC_VARIATION_BAT: 0.831
+  response: 7EC0562483E033F
