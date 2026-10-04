@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22F434
+test_cases:
+- expected_values:
+    MAVERICK_AIR_FUEL_RAT: 12.98944
+  response: 7E80762F43471917FB6
+- expected_values:
+    MAVERICK_AIR_FUEL_RAT: 14.52773
+  response: 7E80762F4347F047FF1
+- expected_values:
+    MAVERICK_AIR_FUEL_RAT: 14.94994
+  response: 7E80762F43482B58004
+- expected_values:
+    MAVERICK_AIR_FUEL_RAT: 14.97853
+  response: 7E80762F43482F57FFE
+- expected_values:
+    MAVERICK_AIR_FUEL_RAT: 29.2801
+  response: 7E80762F434FFFF8133

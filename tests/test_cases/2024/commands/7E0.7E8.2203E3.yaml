@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2203E3
+test_cases:
+- expected_values:
+    MAVERICK_PF_DIFF_P_FEEDBACK_V: 1.49481
+  response: 7E8056203E305FA
+- expected_values:
+    MAVERICK_PF_DIFF_P_FEEDBACK_V: 1.4997
+  response: 7E8056203E305FF
+- expected_values:
+    MAVERICK_PF_DIFF_P_FEEDBACK_V: 1.75372
+  response: 7E8056203E30703
+- expected_values:
+    MAVERICK_PF_DIFF_P_FEEDBACK_V: 2.0517
+  response: 7E8056203E30834

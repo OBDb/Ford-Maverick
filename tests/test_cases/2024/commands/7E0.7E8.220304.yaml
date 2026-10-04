@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.220304
+test_cases:
+- expected_values:
+    MAVERICK_CMD_GEN_V: 14.46383
+  response: 7E80562030473C7
+- expected_values:
+    MAVERICK_CMD_GEN_V: 14.48482
+  response: 7E80562030473F2
+- expected_values:
+    MAVERICK_CMD_GEN_V: 14.49506
+  response: '7E8056203047407'
+- expected_values:
+    MAVERICK_CMD_GEN_V: 14.62926
+  response: 7E805620304751A
