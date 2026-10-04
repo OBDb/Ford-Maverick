@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2203B9
+test_cases:
+- expected_values:
+    MAVERICK_FAN_SPD_DES: 22.64744
+  response: 7E8056203B91CFD
+- expected_values:
+    MAVERICK_FAN_SPD_DES: 36.72847
+  response: 7E8056203B92F03
+- expected_values:
+    MAVERICK_FAN_SPD_DES: 38.44663
+  response: 7E8056203B93136
