@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.220461
 test_cases:
 - expected_values:
-    MAVERICK_CAT: -40
+    MAVERICK_CAT: null
   response: '7E8 05 62 04 61 00 00 '
 - expected_values:
-    MAVERICK_CAT: -40
+    MAVERICK_CAT: null
   response: '7E8056204610000'
