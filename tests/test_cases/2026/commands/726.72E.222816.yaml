@@ -7,8 +7,8 @@ test_cases:
     MAVERICK_TP_RLO: 44.15
   response: '72E 05 62 28 16 03 73 '
 - expected_values:
-    MAVERICK_TP_RLO: 29.45
-  response: 72E05622816024D
+    MAVERICK_TP_RLO: 29.4
+  response: 72E05622816024C
 - expected_values:
     MAVERICK_TP_RLO: 38.35
   response: 72E0562281602FF

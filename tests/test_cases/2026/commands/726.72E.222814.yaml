@@ -4,8 +4,8 @@ test_cases:
     MAVERICK_TP_FR: 45.9
   response: '72E 05 62 28 14 03 96 '
 - expected_values:
-    MAVERICK_TP_FR: 30.45
-  response: '72E056228140261'
+    MAVERICK_TP_FR: 30.4
+  response: '72E056228140260'
 - expected_values:
     MAVERICK_TP_FR: 38.35
   response: 72E0562281402FF
