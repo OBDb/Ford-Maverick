@@ -10,8 +10,8 @@ test_cases:
     MAVERICK_DTE_DISP: 873.4
   response: '7E8 05 62 41 95 22 1E '
 - expected_values:
-    MAVERICK_DTE_DISP: 42.6
-  response: 7E80562419501AA
+    MAVERICK_DTE_DISP: 31.8
+  response: 7E805624195013E
 - expected_values:
     MAVERICK_DTE_DISP: 76.8
   response: '7E8056241950300'
