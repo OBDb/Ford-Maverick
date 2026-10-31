@@ -4,5 +4,5 @@ test_cases:
     MAVERICK_ENG_FUEL_RATE: 0
   response: 7E80562F45E0000
 - expected_values:
-    MAVERICK_ENG_FUEL_RATE: 7.7
-  response: 7E80562F45E009A
+    MAVERICK_ENG_FUEL_RATE: 8.25
+  response: 7E80562F45E00A5
