@@ -10,5 +10,5 @@ test_cases:
     MAVERICK_DTE: 128
   response: '7E8056241940500'
 - expected_values:
-    MAVERICK_DTE: 794.6
-  response: 7E8056241941F0A
+    MAVERICK_DTE: 892.5
+  response: 7E80562419422DD
