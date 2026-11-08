@@ -4,8 +4,8 @@ test_cases:
     MAVERICK_12V_V: 14
   response: '72E 04 62 40 2A A0 '
 - expected_values:
-    MAVERICK_12V_V: 11.6
-  response: 72E0462402A70
+    MAVERICK_12V_V: 11.5
+  response: 72E0462402A6E
 - expected_values:
     MAVERICK_12V_V: 15.1
   response: 72E0462402AB6
