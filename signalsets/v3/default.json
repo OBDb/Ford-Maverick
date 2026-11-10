@@ -218,9 +218,11 @@
   "signals": [
     {"id": "MAVERICK_AC_COMP_A", "path": "Climate", "fmt": { "len": 16, "max": 100, "min": -100, "mul": 100, "div": 32767, "sign": true, "unit": "amps" }, "name": "A/C compressor current"}
   ]},
-{ "hdr": "7DF", "rax": "7EE", "cmd": {"22": "1E23"}, "freq": 30, "dbgfilter": { "from": 2027 },
+{ "hdr": "7DF", "rax": "7EE", "cmd": {"22": "1E23"}, "freq": 0.25, "dbgfilter": { "from": 2027 },
   "signals": [
-    {"id": "MAVERICK_GEAR_SHFT_V2", "path": "Transmission", "name": "Shift gear", "description": "Selected range. Neutral, reverse and park are mapped; the code driving reports (43) is not yet.", "fmt": {"len": 8, "map": {
+    {"id": "MAVERICK_GEAR_SHFT_V2", "path": "Transmission", "name": "Shift gear", "description": "Selected range. Neutral, reverse and park are mapped; the code driving reports (43) is not yet.", "suggestedMetric": "gearSelector", "fmt": {"len": 8, "map": {
+          "20": { "description": "Low",     "value": "LOW" },
+          "43": { "description": "Drive",   "value": "DRIVE" },
           "50": { "description": "Neutral", "value": "NEUTRAL" },
           "60": { "description": "Reverse", "value": "REVERSE" },
           "70": { "description": "Park",    "value": "PARK" }
@@ -689,7 +691,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E12"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2026 },
   "signals": [
-    {"id": "MAVERICK_GEAR", "path": "Transmission", "name": "Current gear", "description": "The automatic transmission gear.", "fmt": {"len": 8, "map": {
+    {"id": "MAVERICK_GEAR", "path": "Transmission", "name": "Current gear", "description": "The automatic transmission gear.", "suggestedMetric": "gear", "fmt": {"len": 8, "map": {
           "1":  { "description": "First gear",   "value": "1" },
           "2":  { "description": "Second gear",  "value": "2" },
           "3":  { "description": "Third gear",   "value": "3" },
@@ -719,18 +721,37 @@
   "signals": [
     {"id": "MAVERICK_TOT_7E0", "path": "Engine", "fmt": { "len": 16, "max": 500, "min": -500, "div": 16, "sign": true, "unit": "celsius" }, "name": "Transmission oil temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E1F"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E1F"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2026 },
   "signals": [
-    {"id": "MAVERICK_GEAR_ENG", "path": "Transmission", "fmt": { "len": 8, "max": 6, "unit": "scalar" }, "name": "Gear, engaged"}
+    {"id": "MAVERICK_GEAR_ENG", "path": "Transmission", "name": "Gear, engaged", "suggestedMetric": "gear", "fmt": {"len": 8, "map": {
+          "1":  { "description": "First gear",   "value": "1" },
+          "2":  { "description": "Second gear",  "value": "2" },
+          "3":  { "description": "Third gear",   "value": "3" },
+          "4":  { "description": "Fourth gear",  "value": "4" },
+          "5":  { "description": "Fifth gear",   "value": "5" },
+          "6":  { "description": "Sixth gear",   "value": "6" },
+          "7":  { "description": "Seventh gear", "value": "7" },
+          "8":  { "description": "Eighth gear",  "value": "8" },
+          "9":  { "description": "Ninth gear",   "value": "9" },
+          "10": { "description": "Tenth gear",   "value": "10" },
+          "70": { "description": "Park",         "value": "PARK" }
+        }}
+    }
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E23"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E23"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2026 },
   "signals": [
-    {"id": "MAVERICK_GEAR_SHFT", "path": "Transmission", "name": "Gear, shift", "fmt": {"len": 8, "map": {
-          "10": { "description": "Manual",  "value": "MANUAL" },
-          "46": { "description": "Drive",   "value": "DRIVE" },
-          "50": { "description": "Neutral", "value": "NEUTRAL" },
-          "60": { "description": "Reverse", "value": "REVERSE" },
-          "70": { "description": "Park",    "value": "PARK" }
+    {"id": "MAVERICK_GEAR_SHFT", "path": "Transmission", "name": "Gear, shift", "suggestedMetric": "gearSelector", "fmt": {"len": 8, "map": {
+          "10":  { "description": "Manual",  "value": "MANUAL" },
+          "20":  { "description": "Low",     "value": "LOW" },
+          "40":  { "description": "Drive",   "value": "DRIVE" },
+          "46":  { "description": "Drive",   "value": "DRIVE" },
+          "50":  { "description": "Neutral", "value": "NEUTRAL" },
+          "60":  { "description": "Reverse", "value": "REVERSE" },
+          "70":  { "description": "Park",    "value": "PARK" },
+          "100": { "description": "Park",    "value": "PARK" },
+          "101": { "description": "Reverse", "value": "REVERSE" },
+          "102": { "description": "Neutral", "value": "NEUTRAL" },
+          "103": { "description": "Drive",   "value": "DRIVE" }
         }}
     }
   ]},
@@ -996,15 +1017,15 @@
   "signals": [
     {"id": "MAVERICK_HYBRID_BAT_PACK", "path": "Battery", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Hybrid battery pack remaining charge"}
   ]},
-{ "hdr": "7E6", "rax": "7EE", "cmd": {"22": "1E12"}, "freq": 1, "dbgfilter": { "from": 2027 },
+{ "hdr": "7E6", "rax": "7EE", "cmd": {"22": "1E12"}, "freq": 0.25, "dbgfilter": { "from": 2027 },
   "signals": [
-    {"id": "MAVERICK_GEAR_CMD", "path": "Transmission", "name": "Gear commanded", "fmt": {"len": 8, "map": {
+    {"id": "MAVERICK_GEAR_CMD", "path": "Transmission", "name": "Gear commanded", "suggestedMetric": "gearSelector", "fmt": {"len": 8, "map": {
           "0":   { "description": "Unknown", "value": "UNKNOWN" },
-          "20":  { "description": "L",       "value": "L" },
-          "40":  { "description": "D",       "value": "D" },
-          "50":  { "description": "N",       "value": "N" },
-          "60":  { "description": "R",       "value": "R" },
-          "70":  { "description": "P",       "value": "P" },
+          "20":  { "description": "Low",     "value": "LOW" },
+          "40":  { "description": "Drive",   "value": "DRIVE" },
+          "50":  { "description": "Neutral", "value": "NEUTRAL" },
+          "60":  { "description": "Reverse", "value": "REVERSE" },
+          "70":  { "description": "Park",    "value": "PARK" },
           "255": { "description": "Fault",   "value": "FAULT" }
         }}
     }
