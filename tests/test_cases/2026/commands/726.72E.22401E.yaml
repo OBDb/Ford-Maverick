@@ -1,6 +1,9 @@
 command_id: 726.72E.22401E
 test_cases:
 - expected_values:
+    MAVERICK_NORM_CUM_CHG_IGN_ON: 12.9
+  response: 72E0562401E0081
+- expected_values:
     MAVERICK_NORM_CUM_CHG_IGN_ON: 22.1
   response: 72E0562401E00DD
 - expected_values:

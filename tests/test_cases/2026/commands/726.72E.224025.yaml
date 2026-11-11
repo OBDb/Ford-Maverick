@@ -13,5 +13,8 @@ test_cases:
     MAVERICK_BAT_QUIESCENT: 13
   response: 72E0562402507EA
 - expected_values:
+    MAVERICK_BAT_QUIESCENT: 14
+  response: 72E0562402507EC
+- expected_values:
     MAVERICK_BAT_QUIESCENT: 22
   response: 72E0562402507FC
