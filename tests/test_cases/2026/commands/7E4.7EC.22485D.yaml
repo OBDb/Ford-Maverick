@@ -1,6 +1,9 @@
 command_id: 7E4.7EC.22485D
 test_cases:
 - expected_values:
+    MAVERICK_BAT_PACK_LIFETIME: 2790
+  response: 7EC0562485D0117
+- expected_values:
     MAVERICK_BAT_PACK_LIFETIME: 3810
   response: 7EC0562485D017D
 - expected_values:
