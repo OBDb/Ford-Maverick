@@ -10,8 +10,8 @@ test_cases:
     MAVERICK_TP_RRO: 38.35
   response: 72E0562281502FF
 - expected_values:
-    MAVERICK_TP_RRO: 38.45
-  response: '72E056228150301'
+    MAVERICK_TP_RRO: 38.4
+  response: '72E056228150300'
 - expected_values:
     MAVERICK_TP_RRO: null
   response: 72E056228150BB8
