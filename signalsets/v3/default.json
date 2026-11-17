@@ -425,7 +425,7 @@
   "signals": [
     {"id": "MAVERICK_CAT_SENS_V", "path": "Engine", "fmt": { "len": 16, "max": 5, "div": 1024, "sign": true, "unit": "volts" }, "name": "Charge air temperature sensor voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0461"}, "freq": 5, "dbgfilter": { "from": 2027 },
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0461"}, "freq": 5,
   "signals": [
     {"id": "MAVERICK_CAT", "path": "Engine", "fmt": { "len": 16, "max": 189, "min": -40, "div": 64, "add": -40, "sign": true, "nullmin": -40, "unit": "celsius" }, "name": "Charge air temperature"}
   ]},
