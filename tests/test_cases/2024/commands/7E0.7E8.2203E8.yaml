@@ -10,5 +10,5 @@ test_cases:
     MAVERICK_OAR: 0.43756
   response: 7E8056203E81C01
 - expected_values:
-    MAVERICK_OAR: 0
+    MAVERICK_OAR: -0.0152
   response: 7E8056203E8FF07
