@@ -1,6 +1,9 @@
 command_id: 726.72E.224026
 test_cases:
 - expected_values:
+    MAVERICK_NORM_CUM_DCHG_BAT_OFF: 1
+  response: 72E05624026000A
+- expected_values:
     MAVERICK_NORM_CUM_DCHG_BAT_OFF: 13.4
   response: '72E056240260086'
 - expected_values:
