@@ -4,6 +4,9 @@ test_cases:
     MAVERICK_NORM_CUM_DCHG_BAT_OFF: 1
   response: 72E05624026000A
 - expected_values:
+    MAVERICK_NORM_CUM_DCHG_BAT_OFF: 1.1
+  response: 72E05624026000B
+- expected_values:
     MAVERICK_NORM_CUM_DCHG_BAT_OFF: 13.4
   response: '72E056240260086'
 - expected_values:
