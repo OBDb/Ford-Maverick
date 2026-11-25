@@ -10,5 +10,5 @@ test_cases:
     MAVERICK_ODO_7E0: 22016
   response: 7E80662DD01005600
 - expected_values:
-    MAVERICK_ODO_7E0: 56805
-  response: 7E80662DD0100DDE5
+    MAVERICK_ODO_7E0: 61508
+  response: 7E80662DD0100F044
